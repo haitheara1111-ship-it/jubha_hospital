@@ -1,0 +1,77 @@
+footer .container {
+      padding: 1rem 5rem;
+      background: var(--secondary-color);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--border-color);
+}
+
+footer .brand {
+      width: 250px;
+}
+
+footer .brand img {
+      object-fit: cover;
+      width: 90%;
+}
+
+footer .link {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+footer nav ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+}
+
+footer nav ul li a {
+      color: var(--primary-color);
+      transition: 0.2s ease-out;
+}
+
+footer nav ul li a:hover {
+      color: var(--hover-color);
+}
+
+footer .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+footer .social {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+footer .social .icon {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+footer .social .icon a {
+      padding: 0.5rem 1rem;
+      background: var(--primary-color);
+      border-radius: var(--border-radius);
+      transition: 0.2 ease-out;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--btn-text-color);
+      width: 10rem;
+}
+
+footer .social .icon a:hover {
+      background-color: var(--hover-color);
+}
+
+footer .bottom {
+      text-align: center;
+      padding: 0.5rem 0;
+      border-top: 1px solid var(--border-color);
+}

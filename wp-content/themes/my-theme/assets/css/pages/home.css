@@ -1,0 +1,729 @@
+main .section-hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem 5rem;
+      gap: 1rem;
+      height: 100vh;
+      background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+main .section-hero-side {
+      width: 50%;
+}
+
+main .section-hero-side p{
+      margin: 1rem 0;
+      color: var(--text-color);
+}
+
+main .news {
+      padding: 1rem 5rem;
+}
+
+main .news .card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+}
+
+main .news .card .left {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      align-items: flex-end;
+      justify-content: center;
+}
+
+main .news .card .left .top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .news .card .left .top div {
+      height: 1px;
+      width: 3rem;
+      background: var(--border-color);
+}
+
+main .news .card .right {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .news .card .right .top {
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 1rem;
+}
+
+main .news .card .right .center {
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+}
+
+main .news .card .right .bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .social-link {
+      padding: 1rem 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+main .service {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .service .top {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+}
+
+main .service .top .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      gap: 1rem;
+      cursor: pointer;
+}
+
+main .service .card:hover {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border: 1px solid #fff;
+}
+
+main .service .top .card i {
+      background: var(--primary-color);
+      color: var(--btn-text-color);
+      border-radius: var(--border-radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3rem;
+      height: 3rem;
+}
+
+main .service .bottom {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+}
+
+main .service .bottom .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      gap: 1rem;
+      cursor: pointer;
+}
+
+main .service .bottom .card i {
+      background: var(--primary-color);
+      color: var(--btn-text-color);
+      border-radius: var(--border-radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3rem;
+      height: 3rem;
+}
+
+main .message {
+      padding: 1rem 5rem;
+
+}
+
+main .message {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+}
+
+main .message .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .message .left .top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .message .left .top div {
+      height: 1px;
+      width: 3rem;
+      background: var(--border-color);
+}
+
+main .message .left .center {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .message .right .img img {
+      object-fit: cover;
+      width: 100%;
+      height: 40rem;
+      border-radius: 2rem;
+}
+
+main .treatment {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .treatment .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .treatment .top .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      gap: 1rem;
+      cursor: pointer;
+      justify-content: space-between;
+}
+
+main .treatment .bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .treatment .bottom .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      gap: 1rem;
+      cursor: pointer;
+      justify-content: space-between;
+}
+
+main .gallery {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .gallery .swiper {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      border-radius: 2rem;
+}
+
+main .gallery .swiper .swiper-wrapper .swiper-slide {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .gallery .swiper .swiper-wrapper .swiper-slide img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 2rem;
+}
+
+main .column {
+      padding: 1rem 5rem;
+}
+
+main .column .card {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+}
+
+main .column .card .top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .column .card .top div {
+      height: 1px;
+      width: 3rem;
+      background: var(--border-color);
+}
+
+main .column .card .center {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .column .card .center .top {
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+}
+
+main .column .card .center .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+}
+
+main .reservation {
+      padding: 1rem 5rem;
+
+}
+
+main .reservation .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+}
+
+main .reservation .card .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+main .reservation .card .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+}
+
+main .reservation .card .center div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .why-choose-us {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .why-choose-us div {
+      display: grid;
+      grid-template-columns: 3fr 1.5fr;
+      gap: 1rem;
+}
+
+main .why-choose-us .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+main .why-choose-us .left .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .why-choose-us .left .top .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .why-choose-us .left .top .card i {
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-color);
+      border-radius: var(--border-radius);
+      color: var(--btn-text-color);
+}
+
+main .why-choose-us .left .bottom {
+      display: grid;
+      grid-template-columns: 1fr;
+}
+
+main .why-choose-us .left .bottom .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .why-choose-us .left .bottom .card i {
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-color);
+      border-radius: var(--border-radius);
+      color: var(--btn-text-color);
+}
+
+main .why-choose-us .right {
+      display: grid;
+      grid-template-columns: 1fr;
+}
+
+main .why-choose-us .right .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .why-choose-us .right .card i {
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;                                          
+      background: var(--primary-color);
+      border-radius: var(--border-radius);
+      color: var(--btn-text-color);
+}
+
+main .testimonials {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .testimonials .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .testimonials .top .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .testimonials .top .card i {
+      color: var(--primary-color);
+}
+
+main .testimonials .top .card .pro {
+      display: flex;
+      align-items: center;    
+      gap: 1rem;                               
+}
+
+main .testimonials .top .card .pro img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: var(--border-radius);
+      object-fit: cover;
+}
+
+main .testimonials .bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .testimonials .bottom .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .testimonials .bottom .card i {
+      color: var(--primary-color);
+}
+
+main .testimonials .bottom .card .pro {
+      display: flex;
+      align-items: center;    
+      gap: 1rem;                               
+}
+
+main .testimonials .bottom .card .pro img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: var(--border-radius);
+      object-fit: cover;
+}
+
+main .cta {
+      padding: 1rem 5rem;
+}
+
+main .cta .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .cta .card div {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+      justify-content: center;
+}
+
+main .cta .card .img {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+}
+
+main .cta .card .img img {
+      object-fit: cover;
+      width: 75%;
+}
+
+main .team {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .team .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .team .top .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .team .top .card .doc {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .team .top .card .doc img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: var(--border-radius);
+}
+
+main .team .bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .team .bottom .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .team .bottom .card .doc {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .team .bottom .card .doc img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: var(--border-radius);
+}
