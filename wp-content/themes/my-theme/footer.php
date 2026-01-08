@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/footer.css">
 
 
 
