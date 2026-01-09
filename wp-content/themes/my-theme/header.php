@@ -1,50 +1,52 @@
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php wp_head(); ?>
+</head>
 
-<header>
-    <div class="navcation_bar">
-        <div class="logo">
-            <img src="https://i.pinimg.com/736x/3b/df/57/3bdf5702d98a357455ff4027786c3d96.jpg" alt="Logo">
+<body <?php body_class(); ?>>
+
+<header class="site-header">
+    <div class="header-container">
+
+
+        <div class="site-logo">
+            <img src="http://jubha_hospital.test/wp-content/uploads/2026/01/logo-hospital-rm-bg.png" alt="">
+            <a href="<?php echo esc_url(home_url('/')); ?>">
+             
+            </a>
         </div>
 
-        <div class="menu">
-            <ul class="main-menu">
-                <li><a href="">Find A Doctor</a></li>
+        
+        <nav class="main-navigation">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'menu_class'     => 'main-menu',
+                'container'      => false,
+            ));
+            ?>
+        </nav>
 
-                <li class="has-dropdown">
-                    <a href="">Hospital & Clinics</a>
-                    <ul class="dropdown">
-                        <li><a href="">Dammam Hospital</a></li>
-                        <li><a href="">Khobar Hospital</a></li>
-                        <li><a href="">Jubail Hospital</a></li>
-                        <li><a href="">Hofuf Hospital</a></li>
-                    </ul>
-                </li>
+        <div class="header-actions">
+           
 
-                <li class="has-dropdown">
-                    <a href="#">Patient Information</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Inpatient</a></li>
-                        <li><a href="#">Outpatient</a></li>
-                        <li><a href="#">Visitor Info</a></li>
-                    </ul>
-                </li>
+            <a href="/book-appointment" class="btn-appointment">
+                Book an Appointment
+            </a>
 
-                <li><a href="#">About Us</a></li>
+            <a href="/my-account" class="icon-btn">
+                <span class="dashicons dashicons-admin-users"></span>
+            </a>
 
-                <li class="has-dropdown">
-                    <a href="#">Media</a>
-                    <ul class="dropdown">
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Gallery</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">National Day Offers</a></li>
-            </ul>
+            <a href="#" class="icon-btn search-toggle">
+                <span class="dashicons dashicons-search"></span>
+            </a>
         </div>
+
     </div>
 </header>
 
-<?php get_footer(); ?>
+<main class="site-content">
