@@ -95,7 +95,7 @@
 
 
 
-  <?php wp_footer(); ?>
+  <?php get_footer(); ?>
 
 </footer>
 
@@ -138,14 +138,3 @@ if (themeToggle) {
 </script>
 
 
-
-
-
-
-
-
-
-
-
-
-<?php get_footer(); ?>
