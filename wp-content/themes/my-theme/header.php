@@ -8,15 +8,15 @@
 
         <div class="menu">
             <ul class="main-menu">
-                <li><a href="#">Find A Doctor</a></li>
+                <li><a href="">Find A Doctor</a></li>
 
                 <li class="has-dropdown">
-                    <a href="#">Hospital & Clinics</a>
+                    <a href="">Hospital & Clinics</a>
                     <ul class="dropdown">
-                        <li><a href="#">Dammam Hospital</a></li>
-                        <li><a href="#">Khobar Hospital</a></li>
-                        <li><a href="#">Jubail Hospital</a></li>
-                        <li><a href="#">Hofuf Hospital</a></li>
+                        <li><a href="">Dammam Hospital</a></li>
+                        <li><a href="">Khobar Hospital</a></li>
+                        <li><a href="">Jubail Hospital</a></li>
+                        <li><a href="">Hofuf Hospital</a></li>
                     </ul>
                 </li>
 
@@ -47,3 +47,4 @@
     </div>
 </header>
 
+<?php get_footer(); ?>
