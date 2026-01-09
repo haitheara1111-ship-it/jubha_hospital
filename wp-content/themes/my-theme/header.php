@@ -14,7 +14,7 @@
 
 
         <div class="site-logo">
-            <img src="http://jubha_hospital.test/wp-content/uploads/2026/01/logo-hospital-rm-bg.png" alt="">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/logo-hospital-rm-bg.png'); ?>" alt="">
             <a href="<?php echo esc_url(home_url('/')); ?>">
              
             </a>
