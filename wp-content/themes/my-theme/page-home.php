@@ -14,8 +14,8 @@
 
             <div class="swiper-slide">
                
-                <img src="http://jubha_hospital.test/wp-content/uploads/2026/01/arab1.jpg" alt="">
-                <div class="slide_contant">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/arab1.jpg  " alt="">
+                <div class="slide_contan    t">
                     <h1>Easier Communicationwith Almana WhatsAppBook nowAlmana Group of HospitalsAlmana Group of HospitalsQuality HealthcareCloser to You
 
                     </h1>
