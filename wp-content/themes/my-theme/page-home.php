@@ -15,15 +15,15 @@
             <div class="swiper-slide">
                
                 <img src="<?php echo get_template_directory_uri(); ?>/images/arab1.jpg  " alt="">
-                <div class="slide_contan    t">
-                    <h1>Easier Communicationwith Almana WhatsAppBook nowAlmana Group of HospitalsAlmana Group of HospitalsQuality HealthcareCloser to You
-
-                    </h1>
+                <div class="slide_contant">
+                 
+                    <p>Your health, Our priority</p><h1>Easier <br>Communicationwith <br>Almana WhatsApp</h1>
+                    <ul><li><a href="">Book Now</a></li></ul>
                 </div>
             </div>
-
-            <!-- <div class="swiper-slide">
-                <img src="https://i.pinimg.com/736x/3b/df/57/3bdf5702d98a357455ff4027786c3d96.jpg" alt="">
+<!-- 
+            <div class="swiper-slide">
+                <img src="http://jubha_hospital.test/wp-content/uploads/2026/01/arab3.jpg" alt="">
             </div>
 
             <div class="swiper-slide">
