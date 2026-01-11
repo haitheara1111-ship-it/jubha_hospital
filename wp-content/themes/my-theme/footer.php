@@ -96,7 +96,7 @@
 </div>
 
     <div class="footer-brand">
-      <img src=<?php echo get_template_directory_uri(); ?>/images/logo-hospital.png alt="logo">
+      <img src=<?php echo get_template_directory_uri(); ?>/images/logo-hospital-rm-bg.png alt="logo">
       <p>© OffSec Services Limited<br>2025. All rights reserved.</p>
     </div>
   </div>
