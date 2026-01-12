@@ -1,0 +1,66 @@
+.hero {
+  position: relative;
+  height: 380px;
+  background-image: url("https://images.pond5.com/abstract-background-shining-bokeh-sparkles-footage-071351826_iconl.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+  color: white;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  
+  backdrop-filter: blur(2px);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #1b6f6b;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.home-icon {
+  background: rgba(255,255,255,0.2);
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.hero-content {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
