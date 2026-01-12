@@ -20,15 +20,16 @@
 
         <!-- Slide 2 -->
         <div class="swiper-slide slide-two">
-            <img src="http://jubha_hospital.test/wp-content/uploads/2026/01/arab3.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
             <div class="slide_contant-1">
                 <p>ALMANA GROUP OF HOSPITAL</p>
                 <h1>Quality Healthcare <br>Closer to you</h1>
                 <ul><li><a href="">EXPLORE OUR LOCATION →</a></li></ul>
             </div>
         </div>
+        <!-- slide 3 -->
           <div class="swiper-slide slide-three">
-            <img src="http://jubha_hospital.test/wp-content/uploads/2026/01/arab3.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab4.jpg" alt="">
             <div class="slide_contant-1">
                 <p>ALMANA GROUP OF HOSPITAL</p>
                 <h1>Quality Healthcare <br>Closer to you</h1>
