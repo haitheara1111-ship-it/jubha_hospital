@@ -1,66 +1,190 @@
-.hero {
+.page-hero {
   position: relative;
-  height: 380px;
-  background-image: url("https://images.pond5.com/abstract-background-shining-bokeh-sparkles-footage-071351826_iconl.jpeg");
+  height: 320px;
+  background-image: url('https://www.hfmmagazine.com/sites/default/files/hfmmagazine/ext/resources/images/2016/October/1116_upfront_microhospital_BSW.jpg'); /* Replace with your banner */
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: flex-end;
-  padding: 60px;
-  color: white;
+  align-items: center;
 }
 
-.hero-overlay {
+.page-hero-overlay {
   position: absolute;
   inset: 0;
-  
-  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.25);
 }
 
-.hero-content {
+.page-hero-content {
   position: relative;
+  color: #fff;
+  padding-left: 80px;
   z-index: 2;
-  max-width: 1200px;
 }
 
-.hero-content h1 {
-  font-size: 64px;
+.page-hero-content h1 {
+  font-size: 56px;
   font-weight: 700;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .breadcrumb {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: #1b6f6b;
-  padding: 10px 18px;
-  border-radius: 10px;
-  font-size: 14px;
-}
-
-.home-icon {
-  background: rgba(255,255,255,0.2);
-  padding: 6px;
+  background: rgba(46, 139, 122, 0.9);
+  padding: 10px 16px;
   border-radius: 6px;
   font-size: 14px;
 }
 
-.hero-content {
-  animation: fadeUp 0.8s ease forwards;
+.breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.breadcrumb .current {
+  font-weight: 600;
+}
+
+.slash {
+  opacity: 0.7;
+}
+
+.home-icon {
+  font-size: 16px;
 }
 
 
+.hospital-section {
+  padding: 100px 10%;
+  background: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+.hospital-container {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.hospital-text h2 {
+  color: #0b5a6f;
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+
+.hospital-text h4 {
+  font-size: 25px;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.hospital-text p {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.hospital-media {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.hospital-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+
+.play-btn {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+}
+
+.year-badge {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  text-align: right;
+  color: #fff;
+}
+
+.year-badge span {
+  font-size: 12px;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
+
+.year-badge strong {
+  display: block;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+}
 
 
+.culture-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 26px;
+  border-radius: 999px;
+  border: 2px solid #0b5a6f;
+  color: #0b5a6f;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: transparent;
+}
+
+.culture-btn .arrow {
+  font-size: 18px;
+  transition: transform 0.35s cubic-bezier(.22,1,.36,1);
+}
+
+.culture-btn .glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(11,90,111,0.35), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.culture-btn:hover {
+  box-shadow: 0 15px 35px rgba(11,90,111,0.35);
+}
+
+.culture-btn:hover .arrow {
+  transform: translateX(8px);
+}
+
+.culture-btn:hover .glow {
+  opacity: 1;
+}
+
+.culture-btn:active {
+  transform: scale(0.96);
+}
