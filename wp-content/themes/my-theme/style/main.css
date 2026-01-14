@@ -81,3 +81,84 @@
     transform: translateY(-50%) scale(1.03);
     transition: 0.3s;
 }
+/* Find a Doctor Section */
+.find-doctor {
+    background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    margin-top: -50px; /* overlaps slightly with slider */
+    position: relative;
+    z-index: 10;
+}
+
+.find-doctor .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.find-doctor .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.find-doctor .tab {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    color: #065f72;
+}
+
+.find-doctor .tab.active,
+.find-doctor .tab:hover {
+    border-bottom: 2px solid #065f72;
+}
+
+.find-doctor .form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.find-doctor select {
+    padding: 12px 20px;
+    border: 1px solid #22d3ee;
+    border-radius: 50px;
+    outline: none;
+    min-width: 200px;
+}
+
+.find-doctor button {
+    background: #22d3ee;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.btn-find-doctor:hover {
+    background: #065f72;
+    color: #fff;
+    
+}
+.btn-find-doctor ul{
+    list-style: none;
+    margin-right: 40px;
+
+    
+
+}
+.btn-find-doctor ul li a{
+        text-decoration: none;
+        
+       
+}
