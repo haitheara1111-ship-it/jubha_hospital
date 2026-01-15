@@ -44,8 +44,9 @@
 <section class="find-doctor">
     <div class="container">
         <div class="tabs">
-            <div class="tab active">FIND A DOCTOR</div>
-            <div class="tab">LOCATION & DIRECTION</div>
+            <div class="tab active"><ul><li><a href="">FIND A DOCTOR</a></li></ul></div>
+            <div class="tab"><ul><li><a href="">LOCATION & DIRECTION</a></li></ul>
+        </div>
         </div>
         <div class="form">
             <select name="location">
@@ -115,7 +116,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/arab4.jpg" alt="About Almana">
 
             <div class="about-overlay">
-                <span class="play-btn">▶</span>
+                <span class="play-btn"><i class="fa-regular fa-circle-play"></i></span>
 
                 <div class="year-box">
                     <h1>1949</h1>
@@ -171,17 +172,77 @@
 
     </div>
 </section>
-<div class="about-our-doctor">
-           <h1>About Our Doctors</h1>
-    <div class="container-doctor">
-       <img src="<?php echo get_template_directory_uri(); ?>/images/arab4.jpg" alt="">
-       <div class="informartion-about-doctor">
-            <h2>Dr. John Doe</h2>
-            <p>Specialization: Cardiology</p>
-            <p>Experience: 15 years</p>
-            <p>Education: MD, Harvard Medical School</p>
-       </div>
-</div>
+
+<!-- About Our Doctors Section -->
+<section class="about-doctors">
+    <h1>Meet Our Doctors</h1>
+    <div class="doctors-container">
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab5.jpg" alt="">
+            <div class="doctor-overlay">
+                <h3>Dr. Ahmed Ali</h3>
+                <p>Cardiologist</p>
+                <a href="#">View Profile →</a>
+            </div>
+        </div>
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <div class="doctor-overlay">
+                <h3>Dr. Sarah Khan</h3>
+                <p>Dermatologist</p>
+                <a href="#">View Profile →</a>
+            </div>
+        </div>
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab6.jpg" alt="">
+            <div class="doctor-overlay">
+                <h3>Dr. John Doe</h3>
+                <p>General Surgeon</p>
+                <a href="#">View Profile →</a>
+            </div>
+        </div>
+
+    </div>
+    <section class="about-doctors">
+    <div class="doctors-container">
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab5.jpg" alt="">
+            <div class="doctor-overlay">
+                <h3>Dr. Ahmed Ali</h3>
+                <p>Cardiologist</p>
+                <a href="#">View Profile →</a>
+            </div>
+        </div>
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <div class="doctor-overlay">
+                <h3>Dr. Sarah Khan</h3>
+                <p>Dermatologist</p>
+                <a href="#">View Profile →</a>
+            </div>
+        </div>
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab6.jpg" alt="">
+            <div class="doctor-overlay">
+                <h3>Dr. John Doe</h3>
+                <p>General Surgeon</p>
+                <a href="#">View Profile →</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- location section -->
+ <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.7976224869563!2d46.67529531500187!3d24.713551984108736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0387b6b2f8fb%3A0xdaaed6e5f5c7f6d2!2sAlmana%20General%20Hospital!5e0!3m2!1sen!2ssa!4v1700244567890!5m2!1sen!2ssa" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+
 
 </main>
 
