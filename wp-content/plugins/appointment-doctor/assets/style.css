@@ -1,0 +1,15 @@
+.appointment-doctor-form {
+    max-width: 350px;
+    margin: 10px auto;
+}
+.appointment-doctor-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+}
+.appointment-success {
+    background: #d4edda;
+    padding: 10px;
+    color: #155724;
+    border-radius: 3px;
+}

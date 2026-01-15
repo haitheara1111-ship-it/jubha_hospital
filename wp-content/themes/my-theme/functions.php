@@ -54,4 +54,15 @@ function mytheme_save_product_meta($post_id){
     if(isset($_POST['stock'])) update_post_meta($post_id,'_stock',$_POST['stock']);
 }
 add_action('save_post','mytheme_save_product_meta');
+function load_appointments_scripts() {
+    wp_enqueue_script(
+        'appointments-js',
+        get_template_directory_uri() . '/js/appointments.js',
+        array(),
+        null,
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'load_appointments_scripts');
+
 ?>
