@@ -40,6 +40,8 @@
     <div class="hospital-media">
       <img src="https://nbhc.ca/sites/default/files/assets/images/Article%20image.jpg" alt="">
 
+      
+    
       <div class="play-btn">▶</div>
 
       <div class="year-badge">
@@ -47,6 +49,8 @@
         <strong>1949</strong>
       </div>
     </div>
+
+    
 
   </div>
 
