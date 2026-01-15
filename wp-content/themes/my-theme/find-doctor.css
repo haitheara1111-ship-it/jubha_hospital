@@ -1,0 +1,44 @@
+/* Find A Doctor Page Styles */
+.find-doctor-page .main-search-home {
+    margin-top: 60px;
+}
+
+.find-doctor-page .search-box h1 {
+    font-size: 36px;
+    color: #0b2b3c;
+    margin-bottom: 10px;
+}
+
+.find-doctor-page .doctor-results {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.doctors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    gap: 25px;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.doctor-card {
+    position: relative;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.doctor-overlay {
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    color: #fff;
+    text-align: left;
+}
