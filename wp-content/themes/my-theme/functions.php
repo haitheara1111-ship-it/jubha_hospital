@@ -54,47 +54,4 @@ function mytheme_save_product_meta($post_id){
     if(isset($_POST['stock'])) update_post_meta($post_id,'_stock',$_POST['stock']);
 }
 add_action('save_post','mytheme_save_product_meta');
-function load_appointments_scripts() {
-    wp_enqueue_script(
-        'appointments-js',
-        get_template_directory_uri() . '/js/appointments.js',
-        array(),
-        null,
-        true
-    );
-}
-add_action('wp_enqueue_scripts', 'load_appointments_scripts');
-// Shortcode to display appointment data
-function jubha_appointment_shortcode() {
-    ob_start();
-
-    $args = array(
-        'post_type' => 'doctor_appointment',
-        'posts_per_page' => -1,
-    );
-
-    $query = new WP_Query($args);
-
-    if ($query->have_posts()) {
-        echo '<div class="appointments-list">';
-        while ($query->have_posts()) {
-            $query->the_post();
-
-            $email = get_post_meta(get_the_ID(), 'patient_email', true);
-
-            echo '<div class="appointment-item">';
-            echo '<strong>Name:</strong> ' . get_the_title() . '<br>';
-            echo '<strong>Email:</strong> ' . esc_html($email) . '<br>';
-            echo '</div><hr>';
-        }
-        echo '</div>';
-    } else {
-        echo 'No appointments found.';
-    }
-
-    wp_reset_postdata();
-    return ob_get_clean();
-}
-add_shortcode('jubha_appointments', 'jubha_appointment_shortcode');
-
 ?>
