@@ -81,3 +81,339 @@
     transform: translateY(-50%) scale(1.03);
     transition: 0.3s;
 }
+/* Find a Doctor Section */
+.find-doctor {
+    background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    margin-top: -50px; /* overlaps slightly with slider */
+    position: relative;
+    z-index: 10;
+}
+
+.find-doctor .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.find-doctor .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.find-doctor .tab {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    color: #065f72;
+}
+
+.find-doctor .tab.active,
+.find-doctor .tab:hover {
+    border-bottom: 2px solid #065f72;
+}
+
+.find-doctor .form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.find-doctor select {
+    padding: 12px 20px;
+    border: 1px solid #22d3ee;
+    border-radius: 50px;
+    outline: none;
+    min-width: 200px;
+}
+
+.find-doctor button {
+    background: #22d3ee;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.btn-find-doctor:hover {
+    background: #065f72;
+    color: #fff;
+    
+}
+.btn-find-doctor ul{
+    list-style: none;
+    margin-right: 40px;
+
+    
+
+}
+.btn-find-doctor ul li a{
+        text-decoration: none;
+        
+       
+}
+
+   /* Almana Style About Section */
+
+
+.about-section {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.about {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Left */
+.about-left {
+    flex: 1;
+}
+
+.about-tag {
+    color: #0aa6a6;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.about-left h2 {
+    font-size: 44px;
+    line-height: 1.2;
+    margin: 15px 0 20px;
+    color: #0b2b3c;
+}
+
+.about-left p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.about-btn {
+    display: inline-block;
+    padding: 14px 35px;
+    border: 2px solid #0aa6a6;
+    color: #0aa6a6;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    background: #0aa6a6;
+    color: #fff;
+}
+
+/* Right */
+.about-right {
+    flex: 1.2;
+    position: relative;
+}
+
+.about-right img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Overlay */
+.about-overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Play Button */
+.play-btn {
+    width: 70px;
+    height: 70px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: #0aa6a6;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* 1949 Box */
+.year-box {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+    color: #fff;
+}
+
+.year-box h1 {
+    font-size: 64px;
+    margin: 0;
+    line-height: 1;
+}
+
+.year-box p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+   /* AGH Statistics Section */
+
+
+.agh-stats {
+    position: relative;
+    padding: 100px 0;
+    background: url("https://cbx-prod.b-cdn.net/COLOURBOX23914641.jpg?width=800&height=800&quality=70") center/cover no-repeat;
+    color: #fff;
+}
+
+.agh-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(6,60,66,0.95), rgba(6,60,66,0.7));
+}
+
+.agh-container {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    z-index: 2;
+}
+
+/* Left boxes */
+.agh-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    flex: 1;
+}
+.agh-boxes i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #00d1c1;
+    margin-right: 30px;
+}
+
+.agh-box {
+    background: rgba(255,255,255,0.08);
+    padding: 35px 30px;
+    border-radius: 15px;
+    text-align: left;
+    backdrop-filter: blur(5px);
+    
+}
+
+.agh-box h1 {
+    font-size: 56px;
+    margin: 0 0 10px;
+    font-weight: 700;
+    margin-left: 30px;
+    
+}
+
+.agh-box p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+/* Right content */
+.agh-content {
+    flex: 1;
+}
+
+.agh-tag {
+    color: #00d1c1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.agh-content h2 {
+    font-size: 40px;
+    margin: 15px 0 20px;
+    line-height: 1.2;
+}
+
+.agh-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 500px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.agh-btn {
+    display: inline-block;
+    padding: 14px 35px;
+    border: 2px solid #00d1c1;
+    color: #00d1c1;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.agh-btn:hover {
+    background: #00d1c1;
+    color: #003c40;
+}
+
+.gh-box{
+    justify-content: space-between;
+    display: flex;
+}
+/* about-our-doctor */
+.about-our-doctor {
+   width: 100%;
+   background-color: #ffffff;
+}
+.about-our-doctor h1 {
+    text-align: center;
+    padding: 20px;
+    color: #065f72;
+}
+.container-doctor {
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+   
+    
+}
+.container-doctor img {
+    width: 300px;
+    border-radius: 10%;
+    height: 300px;
+
+}
+
+
