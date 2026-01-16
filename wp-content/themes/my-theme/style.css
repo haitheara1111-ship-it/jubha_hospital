@@ -162,10 +162,6 @@ html, body {
 }
 
 
-/* ===============================
-   NAVIGATION MENU (CLEAN FINAL)
-================================ */
-
 .main-navigation {
     display: flex;
     justify-content: center;
@@ -270,4 +266,9 @@ html, body {
 .main-menu li ul li a:hover {
     background: rgba(56,189,248,0.15);
     color: #38bdf8;
+}
+
+/* FORCE REMOVE THEME ARROWS */
+.main-menu a::before {
+    content: none !important;
 }
