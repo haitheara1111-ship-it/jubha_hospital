@@ -1,6 +1,7 @@
 <?php
 /*
-Plugin Name: Book Doctor
+Plugin Name: Appointment Doctor
+Plugin URI: http://example.com/appointment-doctor
 Description: A plugin to book doctors.
 Version: 1.0
 Author: Fi Lex
@@ -10,12 +11,12 @@ Author: Fi Lex
 /**
  * Register admin Menu & Submenu
  */
-add_action('admin_menu', 'book_doctor_admin_menu');
-function book_doctor_admin_menu() {
+add_action('admin_menu', 'Appointment_admin_menu');
+function Appointment_admin_menu() {
 
     add_menu_page(
-        'Book Doctor',       // Page title
-        'Book Doctor',        // Menu title
+        'Appointments',       // Page title
+        'Appointments',        // Menu title
         'manage_options',   // Capability
         'book-doctor',      // Menu slug
         'book_doctor_page',  // Callback function
