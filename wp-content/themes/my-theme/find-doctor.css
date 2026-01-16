@@ -1,44 +1,66 @@
-/* Find A Doctor Page Styles */
-.find-doctor-page .main-search-home {
-    margin-top: 60px;
+.find-doctor-page {
+    padding: 40px;
+    background: #f7f7f7;
+    font-family: Arial, sans-serif;
 }
 
-.find-doctor-page .search-box h1 {
+.find-doctor-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.find-doctor-header h1 {
     font-size: 36px;
-    color: #0b2b3c;
     margin-bottom: 10px;
 }
 
-.find-doctor-page .doctor-results {
-    width: 90%;
-    margin: 60px auto;
-    text-align: center;
+.doctor-search {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
-.doctors-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
-    gap: 25px;
+.doctor-search input,
+.doctor-search select {
+    padding: 10px;
+    width: 200px;
 }
 
-.doctor-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-
-.doctor-card {
-    position: relative;
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
+.doctor-search button {
+    padding: 10px 20px;
+    background: #0a7cff;
+    color: white;
+    border: none;
     cursor: pointer;
 }
 
-.doctor-overlay {
+.doctor-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.doctor-card {
+    background: white;
     padding: 20px;
-    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
-    color: #fff;
-    text-align: left;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.doctor-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.doctor-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0a7cff;
+    text-decoration: none;
+    font-weight: bold;
 }
