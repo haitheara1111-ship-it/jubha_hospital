@@ -1,7 +1,7 @@
 .page-hero {
   position: relative;
   height: 320px;
-  background-image: url('https://www.hfmmagazine.com/sites/default/files/hfmmagazine/ext/resources/images/2016/October/1116_upfront_microhospital_BSW.jpg'); /* Replace with your banner */
+  background-image: url('https://grosvenorinteriors.co.uk/wp-content/uploads/2018/11/image3-2-1170x779.jpg'); /* Replace with your banner */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -187,4 +187,320 @@
 
 .culture-btn:active {
   transform: scale(0.96);
+}
+
+.about-section {
+  padding: 100px 10%;
+  background: #f9fafb;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-text h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.about-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 18px;
+}
+
+.dept-section {
+  position: relative;
+  padding: 60px 8%;
+  background: url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3') center/cover no-repeat;
+  color: #fff;
+  overflow: hidden;
+  background-attachment: scroll !important;
+  transform: none;
+  will-change: auto;
+}
+
+.dept-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 70, 80, 0.78);
+  z-index: 1;
+}
+
+.dept-content {
+  position: relative;
+  z-index: 2;
+}
+
+.dept-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.dept-text h2 {
+  font-size: 42px;
+  max-width: 640px;
+  line-height: 1.2;
+}
+
+.dept-text p {
+  font-size: 18px;
+  max-width: 640px;
+  opacity: 0.9;
+}
+
+.dept-link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+/* Slider */
+
+.dept-slider-wrapper {
+  position: relative;
+  
+}
+
+.dept-slider {
+  display: flex;
+  gap: 28px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.dept-card {
+  min-width: 260px;
+  height: 150px;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.dept-card span {
+  font-size: 36px;
+  margin-bottom: auto;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto  ;
+}
+
+.dept-card:hover {
+  background: rgba(255,255,255,0.18);
+  transform: translateY(-6px);
+}
+
+/* Nav */
+
+.dept-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: transparent;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.dept-nav:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.dept-nav.left { left: -60px; }
+.dept-nav.right { right: -60px; }
+
+@media(max-width: 900px) {
+  .dept-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dept-text h2 {
+    font-size: 32px;
+  }
+  .dept-card {
+    min-width: 220px;
+    height: 140px;
+  }
+}
+
+
+
+
+.stats-section {
+  padding: 100px 5%;
+  background-image: url("https://grosvenorinteriors.co.uk/wp-content/uploads/2018/11/image3-2-1170x779.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+
+
+.stats-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.stats-text {
+  flex: 1;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.stats-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.stat-card {
+  background: #0f4c5c;
+  color: white;
+  padding: 35px 45px;
+  border-radius: 18px;
+  min-width: 260px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+.stat-card h2 {
+  font-size: 46px;
+  margin: 15px 0 5px;
+}
+
+.stat-card span {
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+
+/* ============================================
+   FIX: Disable sticky / parallax backgrounds
+   ============================================ */
+
+.page-hero,
+.page-hero::before,
+.page-hero::after,
+.dept-section,
+.dept-section::before,
+.dept-section::after,
+.stats-section,
+.stats-section::before,
+.stats-section::after {
+  background-attachment: scroll !important;
+  position: relative !important;
+  transform: none !important;
+  will-change: auto !important;
+}
+
+/* Kill any transform-based parallax */
+.page-hero *,
+.dept-section *,
+.stats-section * {
+  transform: none !important;
+}
+
+
+.vision-section {
+  padding: 100px 8%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.vision-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.vision-image img {
+  width: auto;
+  
+  border-radius: 8px; 
+  height: auto;
+}
+
+.vision-content h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #003c46;
+}
+
+.vision-content p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.vision-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  border: 2px solid #0aa3a3;
+  border-radius: 999px;
+  color: #0aa3a3;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.vision-btn:hover {
+  background: #0aa3a3;
+  color: #fff;
+}
+
+/* ===== Animation ===== */
+
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
 }
