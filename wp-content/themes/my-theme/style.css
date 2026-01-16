@@ -136,37 +136,97 @@ html, body {
   transform: scale(1.05);
 }
 
-/* ===== Mobile ===== */
-@media (max-width: 768px) {
-  .header-container {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
 
-  .main-navigation {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-  }
 
-  .main-menu {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 18px;
-  }
-
-  .btn-appointment {
-    padding: 8px 14px;
-    font-size: 14px;
-  }
-}
-
+/* =========================
+   NAVBAR FIX – CLEAN VERSION
+========================= */
 
 .main-navigation {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.main-navigation ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    position: relative;
+}
+
+.main-navigation ul li a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.main-navigation ul li a:hover {
+    color: #60a5fa;
+}
+
+/* Active menu */
+.main-navigation .current-menu-item > a {
+    color: #60a5fa;
+}
+
+/* Dropdown arrow */
+.main-navigation li.menu-item-has-children > a::after {
+    content: " ▾";
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Dropdown menu */
+.main-navigation li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background: #0f172a;
+    border-radius: 10px;
+    padding: 8px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.25s ease;
+    z-index: 999;
+}
+
+/* Show dropdown */
+.main-navigation li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Submenu links */
+.main-navigation li ul li a {
+    display: block;
+    padding: 10px 18px;
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+.main-navigation li ul li a:hover {
+    background: rgba(56,189,248,0.15);
+    color: #38bdf8;
+}
+
 
 /* Menu container */
 .main-menu {
