@@ -25,26 +25,8 @@ function Appointment_admin_menu() {
         5                   
     );
 
-    // 2. Overwrite the 1st Submenu Item (This adds the icon you're missing)
-    add_submenu_page(
-        'book-doctor',               
-        'Book Doctor Settings',      
-        '<span class="dashicons dashicons-admin-generic"></span> Settings', // Icon + Text
-        'manage_options',            
-        'book-doctor',               // Matches the parent slug to overwrite the first item
-        'book_doctor_page'           
-    );
 
-    // 3. Submenu: Appointments
-    add_submenu_page(
-        'book-doctor',               
-        'Appointments',              
-        '<span class="dashicons dashicons-calendar-alt"></span> Appointments', 
-        'manage_options',            
-        'book-doctor-appointments',  
-        'book_doctor_appointments_page' 
-    );
-    
+
     // 4. Submenu: Doctors
     add_submenu_page(
         'book-doctor',               
@@ -55,19 +37,32 @@ function Appointment_admin_menu() {
         'book_doctor_list_page' 
     );
 
+    // 2. Overwrite the 1st Submenu Item (This adds the icon you're missing)
+    add_submenu_page(
+        'book-doctor',               
+        'Book Doctor Settings',      
+        '<span class="dashicons dashicons-admin-generic"></span> Settings', // Icon + Text
+        'manage_options',            
+        'book-doctor',               // Matches the parent slug to overwrite the first item
+        'book_doctor_page'           
+    );
+
+ 
+    
+    
+
 }
 
 // --- Callback Functions ---
+
+function book_doctor_list_page() {
+    echo '<div class="wrap"><h1><span class=""></span> Doctor List</h1><p>View and manage all registered doctors.</p></div>';
+}
+
+
 
 function book_doctor_page() {
 
     echo '<div class="wrap"><h1><span class=""></span> Book Doctor Settings</h1></div>';
 }
 
-function book_doctor_appointments_page() {
-    echo '<div class="wrap"><h1><span class=""></span> Doctor Appointments</h1><p>Manage your appointments here.</p></div>';
-}
-
-function book_doctor_list_page() {
-    echo '<div class="wrap"><h1><span class=""></span> Doctor List</h1><p>View and manage all registered doctors.</p></div>';
-}
