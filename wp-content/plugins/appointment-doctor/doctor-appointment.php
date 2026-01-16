@@ -10,6 +10,7 @@ Author: Fi Lex
 /**
  * Register admin Menu & Submenus
  */
+
 add_action('admin_menu', 'Appointment_admin_menu');
 
 function Appointment_admin_menu() {
@@ -53,11 +54,13 @@ function Appointment_admin_menu() {
         'book-doctor-list', 
         'book_doctor_list_page' 
     );
+
 }
 
 // --- Callback Functions ---
 
 function book_doctor_page() {
+
     echo '<div class="wrap"><h1><span class=""></span> Book Doctor Settings</h1></div>';
 }
 
