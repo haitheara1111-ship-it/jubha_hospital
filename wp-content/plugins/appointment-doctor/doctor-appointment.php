@@ -7,62 +7,62 @@ Version: 1.0
 Author: Fi Lex
 */ 
 
-/**
- * Register admin Menu & Submenus
- */
+add_action('admin_menu', 'appointment_admin_menu');
 
-add_action('admin_menu', 'Appointment_admin_menu');
+function appointment_admin_menu() {
 
-function Appointment_admin_menu() {
-    // 1. Main Top-Level Menu
+    // Main menu
     add_menu_page(
-        'Appointment',       
-        'Appointment',       
-        'manage_options',    
-        'book-doctor',       
-        'book_doctor_page',  
-        'dashicons-calendar-alt', // Changed to a calendar icon for "Appointments"
-        5                   
+        'Appointments',
+        'Appointments',
+        'manage_options',
+        'book-doctor',
+        'book_doctor_page',
+        'dashicons-calendar-alt',
+        5
     );
 
-
-
-    // 4. Submenu: Doctors
+    // Submenu: Patient
     add_submenu_page(
-        'book-doctor',               
-        'Doctors',              
-        '<span class="dashicons dashicons-businessperson"></span> Doctors', 
-        'manage_options',            
-        'book-doctor-list', 
-        'book_doctor_list_page' 
+        'book-doctor',
+        'Patient',
+        'Patient',
+        'manage_options',
+        'book-doctor-patient',
+        'book_patient_page'
     );
 
-    // 2. Overwrite the 1st Submenu Item (This adds the icon you're missing)
+    // Submenu: Doctors
     add_submenu_page(
-        'book-doctor',               
-        'Book Doctor Settings',      
-        '<span class="dashicons dashicons-admin-generic"></span> Settings', // Icon + Text
-        'manage_options',            
-        'book-doctor',               // Matches the parent slug to overwrite the first item
-        'book_doctor_page'           
+        'book-doctor',
+        'Doctors',
+        'Doctors',
+        'manage_options',
+        'book-doctor-list',
+        'book_doctor_list_page'
     );
 
- 
-    
-    
-
+    // Submenu: Settings (overwrite first submenu)
+    add_submenu_page(
+        'book-doctor',
+        'Book Doctor Settings',
+        'Settings',
+        'manage_options',
+        'book-doctor',
+        'book_doctor_page'
+    );
 }
 
 // --- Callback Functions ---
 
-function book_doctor_list_page() {
-    echo '<div class="wrap"><h1><span class=""></span> Doctor List</h1><p>View and manage all registered doctors.</p></div>';
-}
-
-
-
 function book_doctor_page() {
-
-    echo '<div class="wrap"><h1><span class=""></span> Book Doctor Settings</h1></div>';
+    echo '<div class="wrap"><h1>Book Doctor Settings</h1></div>';
 }
 
+function book_patient_page() {
+    echo '<div class="wrap"><h1>Patient Settings</h1></div>';
+}
+
+function book_doctor_list_page() {
+    echo '<div class="wrap"><h1>Doctor List</h1><p>View and manage all registered doctors.</p></div>';
+}
