@@ -11,12 +11,13 @@ Author: Fi Lex
 /**
  * Register admin Menu & Submenu
  */
-add_action('admin_menu', 'Appointment_admin_menu');
-function Appointment_admin_menu() {
+add_action('admin_menu', 'book_doctor_admin_menu');
+function book_doctor_admin_menu() {
 
+    // Main menu
     add_menu_page(
-        'Appointments',       // Page title
-        'Appointments',        // Menu title
+        'Book Doctor',       // Page title
+        'Book Doctor',        // Menu title
         'manage_options',   // Capability
         'book-doctor',      // Menu slug
         'book_doctor_page',  // Callback function
