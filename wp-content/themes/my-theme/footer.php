@@ -104,8 +104,10 @@
 
     <!-- Brand -->
     <div class="footer-brand">
+
       <img src="<?php echo get_template_directory_uri(); ?>/images/logo-hospital-rm-bg.png" alt="logo">
       <p>© Jubha Hospital<br><?php echo date('Y'); ?>. All rights reserved.</p>
+
     </div>
 
   </div>
