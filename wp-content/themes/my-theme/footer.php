@@ -10,7 +10,7 @@
 <footer class="site-footer" id="siteFooter">
 
   <div class="footer-top">
-    <span class="mode-label">LIGHT</span>
+    <span class="mode-label">GREEN</span>
 
     <label class="switch">
       <input type="checkbox" id="themeToggle">
