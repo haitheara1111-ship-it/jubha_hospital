@@ -54,3 +54,78 @@
 .home-icon {
   font-size: 16px;
 }
+
+
+.contact-section {
+  background: #f7f9fa;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 1300px;
+  margin: auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.contact-container h2 {
+  color: #005c6d;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contact-container p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #005c6d;
+  outline: none;
+}
+
+button {
+  background: #005c6d;
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #003f4b;
+}
+
+.form-message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: green;
+}
