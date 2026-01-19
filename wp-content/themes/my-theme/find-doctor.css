@@ -1,0 +1,29 @@
+.doctor-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.doctor-info {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 124, 255, 0.9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.doctor-card:hover .doctor-info {
+    opacity: 1;
+}
+
+.doctor-info a {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 10px;
+}
