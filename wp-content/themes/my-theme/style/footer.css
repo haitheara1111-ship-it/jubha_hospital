@@ -156,6 +156,6 @@ input:checked + .slider::before {
 }
 
 .site-footer.light {
-  background: white;
+  background: #285F6B;
   color: black;
 }

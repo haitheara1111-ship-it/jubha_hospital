@@ -2,6 +2,7 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/find-doctor.css">
 
+
 <main class="find-doctor-page">
 
     <section class="find-doctor-header">
@@ -24,10 +25,12 @@
 
         <div class="doctor-card">
             <img src="<?php echo get_template_directory_uri(); ?>/images/arab1.jpg" alt="">
+
             <h3>Dr. Ahmed Ali</h3>
             <p>Cardiologist</p>
             <a href="#">View Profile</a>
         </div>
+
 
         <div class="doctor-card">
             <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
@@ -39,5 +42,6 @@
     </section>
 
 </main>
+\
 
 <?php get_footer(); ?>
