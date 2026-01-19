@@ -14,6 +14,7 @@
       <span class="home-icon">
         <i class="fa-solid fa-house"></i>
       </span>
+      <span class="slash">/</span>
       <a href="#">About Us</a>
       <span class="slash">/</span>
       <span class="current">Overview</span>
