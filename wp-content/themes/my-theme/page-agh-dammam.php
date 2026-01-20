@@ -76,23 +76,235 @@
     </div>
 
     <div class="tab-panel" id="director">
+     <section class="doctor-section">
+  <div class="doctor-wrapper">
+
+    <!-- LEFT IMAGE -->
+    <div class="doctor-image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/mrdubai.png" alt="Dr Talal">
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="doctor-info">
+      <h1>Dr. Talal Aldhary</h1>
+      <span class="title">Medical Director</span>
+
       <p>
-        Our Medical Director leads the hospital with a strong commitment to clinical
-        excellence, ethical practice, and continuous improvement in healthcare delivery.
+        Dr. Talal Aldhary is a highly accomplished and well-respected medical professional,
+        currently holding the esteemed position of Hospital and Medical Director at Almana
+        General Hospital in Dammam, Saudi Arabia.
       </p>
+
+      <p>
+        Boasting an impressive 32 years of experience in the medical field, Dr. Talal Aldhary
+        has held several notable roles throughout his career, including serving as Assistant
+        Director General for the Eastern Health Committee, Director of the Private Health Sector
+        Affairs Department, and Chief Resident Physician of Internal Medicine at Dammam Central
+        Hospital.
+      </p>
+
+      <p>
+        Dr. Talal Aldhary holds a Bachelor of Medicine and Surgery, as well as a certificate
+        from the Saudi Specialty Program for Internal Medicine, further demonstrating his
+        dedication and expertise in the field.
+      </p>
+
+      <p>
+        Additionally, he is a distinguished member of the Violations Committee of Private Health
+        Institutions and an esteemed member of the Saudi Cancer Society, exemplifying his
+        commitment to advancing medical care and research.
+      </p>
+    </div>
+
+  </div>
+</section>
     </div>
 
     <div class="tab-panel" id="hours">
-      <p><strong>Emergency:</strong> 24/7</p>
-      <p><strong>Outpatient Clinics:</strong> 8:00 AM – 10:00 PM</p>
-      <p><strong>Administration:</strong> 8:00 AM – 5:00 PM</p>
+    <section class="working-hours">
+  <div class="hours-wrapper">
+
+    <!-- LEFT COLUMN -->
+    <div class="hours-box">
+      <h3>OUT PATIENT CLINICS “OPD”</h3>
+      <div class="row">
+        <span>1st Shift</span>
+        <span>8am - 12pm</span>
+      </div>
+      <div class="row">
+        <span>2nd Shift</span>
+        <span>4pm - 10pm</span>
+      </div>
+    </div>
+
+    <div class="hours-box">
+      <h3>PHARMACIES</h3>
+      <div class="row">
+        <span>1st Shift</span>
+        <span>8am - 1pm</span>
+      </div>
+      <div class="row">
+        <span>2nd Shift</span>
+        <span>4pm - 10pm</span>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="hours-box">
+      <h3>VISITORS</h3>
+      <div class="row">
+        <span>1st Shift</span>
+        <span>1pm - 3pm</span>
+      </div>
+      <div class="row">
+        <span>2nd Shift</span>
+        <span>5pm - 9pm</span>
+      </div>
+      <div class="row">
+        <span>Friday</span>
+        <span>10am - 9pm</span>
+      </div>
+    </div>
+
+    <div class="hours-box">
+      <h3>HEAD OFFICE</h3>
+      <div class="row">
+        <span>1st Shift</span>
+        <span>8am - 12pm</span>
+      </div>
+      <div class="row">
+        <span>2nd Shift</span>
+        <span>4pm - 8pm</span>
+      </div>
+    </div>
+
+  </div>
+</section>
     </div>
 
     <div class="tab-panel" id="doctors">
-      <p>
-        Our team includes over 120 highly qualified doctors across multiple specialties,
-        working together to provide comprehensive and personalized care.
-      </p>
+      <main class="find-doctor-page">
+
+    <section class="find-doctor-header">
+        <h1>Find a Doctor</h1>
+        <p>Search and find the best doctor for your needs</p>
+    </section>
+
+    <section class="doctor-search">
+        <input type="text" placeholder="Search by doctor name...">
+      <select>
+    <option>All Specialties</option>
+    <option>Cardiology</option>
+    <option>Neurology</option>
+    <option>Pediatrics</option>
+    <option>Orthopedics</option>
+    <option>Dermatology</option>
+    <option>Ophthalmology</option>
+    <option>ENT (Ear, Nose & Throat)</option>
+    <option>Gynecology</option>
+    <option>Urology</option>
+    <option>Gastroenterology</option>
+    <option>Oncology</option>
+    <option>Pulmonology</option>
+    <option>Endocrinology</option>
+</select>
+        <button>Search</button>
+    </section>
+
+    <section class="doctor-list">
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab1.jpg" alt="">
+
+            <h3>Dr. Ahmed Ali</h3>
+            <p>Cardiologist</p>
+            <a href="#">View Profile</a>
+        </div>
+
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+              <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+              <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+                  <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+
+    </section>
+    
+
+    
+    <section class="doctor-list">
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab1.jpg" alt="">
+
+            <h3>Dr. Ahmed Ali</h3>
+            <p>Cardiologist</p>
+            <a href="#">View Profile</a>
+        </div>
+
+
+        <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+              <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+              <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+                  <div class="doctor-card">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+            <h3>Dr. Sara Khan</h3>
+            <p>Neurologist</p>
+            <a href="#">View Profile</a>
+        </div>
+
+    </section>
+    <section class="doctor-list">
+    </section>
+    
+    
+<!-- PAGINATION -->
+<div class="pagination">
+    <a href="#" class="prev">« Prev</a>
+    <span class="current">1</span>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <a href="" class="next">Next »</a>
+</div>
+
+</main>
+
     </div>
 
     <div class="tab-panel" id="contact">
@@ -156,6 +368,34 @@ document.querySelectorAll(".tab-btn").forEach(button => {
     // Show selected panel
     const tabId = button.getAttribute("data-tab");
     document.getElementById(tabId).classList.add("active");
+  });
+});
+
+
+const btn = document.getElementById("readMoreBtn");
+let expanded = false;
+
+btn.addEventListener("click", () => {
+    const paragraphs = document.querySelectorAll(".profile-content p");
+
+    if (!expanded) {
+        paragraphs.forEach(p => p.style.maxHeight = "none");
+        btn.textContent = "Show Less";
+    } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        btn.textContent = "Read More";
+    }
+
+    expanded = !expanded;
+});
+
+document.querySelectorAll(".row").forEach(row => {
+  row.addEventListener("mouseenter", () => {
+    row.style.background = "#f4fbfc";
+  });
+
+  row.addEventListener("mouseleave", () => {
+    row.style.background = "transparent";
   });
 });
 
