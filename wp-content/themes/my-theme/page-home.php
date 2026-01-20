@@ -10,7 +10,7 @@
     <div class="swiper-wrapper">
         <!-- Slide 1 -->
         <div class="swiper-slide slide-one">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/arab1.jpg" alt="">
+           <img src="<?php echo get_template_directory_uri(); ?>/images/arab115.jpg" alt="">
             <div class="slide_contant">
                 <p>Your health, Our priority</p>
                 <h1>Easier <br>Communication with <br>Almana WhatsApp</h1>
@@ -19,7 +19,7 @@
         </div>
         <!-- Slide 2 -->
         <div class="swiper-slide slide-two">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/arab3.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/arab4.jpg" alt="">
             <div class="slide_contant-1">
                 <p>ALMANA GROUP OF HOSPITAL</p>
                 <h1>Quality Healthcare <br>Closer to you</h1>
@@ -28,7 +28,7 @@
         </div>
         <!-- Slide 3 -->
         <div class="swiper-slide slide-three">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/arab4.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/arab11.jpg" alt="">
             <div class="slide_contant-1">
                 <p>Your health, Our priority</p>
                 <h1>OPD clinics Open <br>Until 10PM</h1>
