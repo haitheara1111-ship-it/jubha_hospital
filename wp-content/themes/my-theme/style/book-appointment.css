@@ -1,0 +1,134 @@
+/* ===============================
+   APPOINTMENT FORM STYLE
+================================ */
+
+.appointment-wrap {
+  background: #f4f7fb;
+  padding: 80px 20px;
+}
+
+.appointment-box {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+.appointment-box h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #0b2c4d;
+}
+
+.appointment-box p {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+/* FORM */
+#appointmentForm label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #0b2c4d;
+}
+
+#appointmentForm input,
+#appointmentForm select,
+#appointmentForm textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+#appointmentForm input:focus,
+#appointmentForm select:focus,
+#appointmentForm textarea:focus {
+  outline: none;
+  border-color: #0d3b66;
+  box-shadow: 0 0 0 3px rgba(13,59,102,0.1);
+}
+
+#appointmentForm textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+/* TWO COLUMN */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* PHONE */
+.phone-field {
+  display: flex;
+}
+
+.phone-field span {
+  background: #eef2f7;
+  padding: 14px 18px;
+  border: 1px solid #d1d5db;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  font-weight: 600;
+}
+
+.phone-field input {
+  border-radius: 0 10px 10px 0;
+}
+
+/* CHECKBOX */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.checkbox input {
+  width: auto;
+}
+
+.checkbox a {
+  color: #0d3b66;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* SUBMIT BUTTON */
+#appointmentForm button {
+  width: 100%;
+  background: linear-gradient(135deg, #0d3b66, #0b2c4d);
+  color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#appointmentForm button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(13,59,102,0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .appointment-box {
+    padding: 30px 20px;
+  }
+}

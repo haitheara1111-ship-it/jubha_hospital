@@ -34,7 +34,7 @@
         <div class="header-actions">
            
 
-            <a href="/book-appointment" class="btn-appointment">
+            <a href="/book-appointment/" class="btn-appointment">
                 Book an Appointment
             </a>
 
