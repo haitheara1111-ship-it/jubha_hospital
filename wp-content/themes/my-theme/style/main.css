@@ -49,7 +49,7 @@
 /* Button (ul as button) */
 .slide_contant ul,
 .slide_contant-1 ul {
-    background-color: #22d3ee;
+    background-color:rgba(46, 139, 122, 0.9);
     list-style: none;
     width: 200px;
     margin-left: 30px;
@@ -62,7 +62,7 @@
 .slide_contant ul li a,
 .slide_contant-1 ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     display: block;
     text-align: center;
     font-weight: bold;
@@ -111,7 +111,7 @@
 
 }.tabs ul li a{
         text-decoration: none;  
-        color: #065f72;
+        color:rgba(46, 139, 122, 0.9);
         font-weight: bold;
         padding: 10px 20px;
         display: block;
@@ -124,12 +124,12 @@
     padding: 10px 20px;
     border-bottom: 2px solid transparent;
     transition: 0.3s;
-    color: #065f72;
+    color:rgba(46, 139, 122, 0.9);
 }
 
 .find-doctor .tab.active,
 .find-doctor .tab:hover {
-    border-bottom: 2px solid #065f72;
+    border-bottom: 2px rgba(46, 139, 122, 0.9) solid;
 }
 
 .find-doctor .form {
@@ -141,18 +141,18 @@
 
 .find-doctor select {
     padding: 12px 20px;
-    border: 1px solid #22d3ee;
+    border: 1px solid rgba(46, 139, 122, 0.9);
     border-radius: 50px;
     outline: none;
     min-width: 200px;
 }
 
 .find-doctor button {
-    background: #22d3ee;
+    background: rgba(46, 139, 122, 0.9);
     border: none;
     padding: 10px 10px;
     border-radius: 50px;
-    color: #000;
+    color: #fff;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
@@ -160,7 +160,7 @@
 }
 
 .btn-find-doctor:hover {
-    background: #065f72;
+    background: rgba(46, 139, 122, 0.9);
     color: #fff;
     
 }
