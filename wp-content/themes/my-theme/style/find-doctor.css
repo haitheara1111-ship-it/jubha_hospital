@@ -173,3 +173,135 @@
     background: #005f8d;
     color: #fff;
 }
+/* =========================
+   TABLET (max-width: 992px)
+   ========================= */
+@media (max-width: 992px) {
+
+  .page-hero {
+    height: 260px;
+  }
+
+  .page-hero-content {
+    padding-left: 40px;
+  }
+
+  .page-hero-content h1 {
+    font-size: 42px;
+  }
+
+  .text-container p {
+    font-size: 18px;
+  }
+
+  .img-section img {
+    max-width: 92%;
+  }
+
+  .doctor-search input,
+  .doctor-search select {
+    width: 180px;
+  }
+}
+
+/* =========================
+   MOBILE (max-width: 768px)
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Hero */
+  .page-hero {
+    height: 220px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .page-hero-content {
+    padding-left: 0;
+  }
+
+  .page-hero-content h1 {
+    font-size: 30px;
+  }
+
+  .breadcrumb {
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  /* Text */
+  .text-container {
+    padding: 20px 15px;
+  }
+
+  .text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Image */
+  .img-section img {
+    max-width: 95%;
+    height: auto;
+  }
+
+  /* Find Doctor */
+  .find-doctor-page {
+    padding: 20px 15px;
+  }
+
+  .find-doctor-header h1 {
+    font-size: 28px;
+  }
+
+  .doctor-search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doctor-search input,
+  .doctor-search select,
+  .doctor-search button {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* Doctor Cards */
+  .doctor-card {
+    padding: 15px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE (max-width: 480px)
+   ========================= */
+@media (max-width: 480px) {
+
+  .page-hero {
+    height: 180px;
+  }
+
+  .page-hero-content h1 {
+    font-size: 24px;
+  }
+
+  .breadcrumb {
+    padding: 8px 12px;
+  }
+
+  .find-doctor-header h1 {
+    font-size: 24px;
+  }
+
+  .doctor-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Pagination */
+  .pagination a,
+  .pagination span {
+    padding: 0.45rem 0.7rem;
+    font-size: 14px;
+  }
+}
