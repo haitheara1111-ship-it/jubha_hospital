@@ -16,7 +16,23 @@
       <span class="current">All Locations</span>
     </div>
   </div>
+  
 </section>
+  <div class="text-container">
+  <h1>ABOUT OUR LOCATIONS</h1>   
+  <p>
+    We are proud to serve our patients through a growing network of hospitals, clinics, and healthcare centers across multiple cities. Our locations are carefully selected to ensure easy access, comfort, and high-quality medical care wherever you are.
+  </p>
+
+  <p>
+    Whether you are looking for a major hospital, a specialized clinic, or emergency services, you can easily find the nearest location that fits your needs. Each location provides trusted healthcare professionals, modern facilities, and patient-focused services.
+  </p>
+
+  <p>
+    Explore our locations below to view available services, specialties, and contact details, and choose the healthcare center that is most convenient for you and your family.
+  </p>
+</div>
+
 
 <section class="all-locations">
   <h1>Find Your Location</h1>
@@ -113,11 +129,15 @@
         <div class="location-overlay">
           <h3>Prey Veang</h3>
           <p>General Hospitals • Health Centers</p>
-          <a href="#">View Details →</a>
+          <a href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- location section -->
+ <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.7976224869563!2d46.67529531500187!3d24.713551984108736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0387b6b2f8fb%3A0xdaaed6e5f5c7f6d2!2sAlmana%20General%20Hospital!5e0!3m2!1sen!2ssa!4v1700244567890!5m2!1sen!2ssa" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 <?php get_footer(); ?>
