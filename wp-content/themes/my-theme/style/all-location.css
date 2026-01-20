@@ -133,3 +133,110 @@
     border: none;
     margin-left: 5.6%;
 }
+/* =========================
+   RESPONSIVE STYLES
+   ========================= */
+
+/* Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+
+  .page-hero {
+    height: 260px;
+  }
+
+  .page-hero-content {
+    padding-left: 40px;
+  }
+
+  .page-hero-content h1 {
+    font-size: 42px;
+  }
+
+  .text-container {
+    padding: 20px;
+  }
+
+  .text-container p {
+    font-size: 18px;
+  }
+
+  .image-wrapper img {
+    height: 180px;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+
+  .page-hero {
+    height: 220px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .page-hero-content {
+    padding-left: 0;
+  }
+
+  .page-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .text-container {
+    padding: 15px;
+  }
+
+  .text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .all-locations {
+    padding: 40px 15px;
+  }
+
+  .all-locations h1 {
+    font-size: 2rem;
+  }
+
+  .locations-container {
+    gap: 20px;
+  }
+
+  .image-wrapper img {
+    height: 170px;
+  }
+
+  .location-overlay h3 {
+    font-size: 1.2rem;
+  }
+
+  .location-overlay p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+
+  .page-hero {
+    height: 180px;
+  }
+
+  .page-hero-content h1 {
+    font-size: 26px;
+  }
+
+  .text-container p {
+    font-size: 15px;
+  }
+
+  .location-overlay {
+    padding: 15px;
+  }
+
+  .location-overlay a {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+  }
+}
