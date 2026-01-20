@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/all-location.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/all-locations.css">
 
 <section class="page-hero">
   <div class="page-hero-overlay"></div>
