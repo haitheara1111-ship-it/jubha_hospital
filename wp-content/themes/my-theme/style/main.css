@@ -483,6 +483,183 @@
     border: none;
     margin-left: 5.6%;
 }
+/* =========================
+   RESPONSIVE – TABLET
+   ========================= */
+@media (max-width: 992px) {
+
+  /* Swiper */
+  .swiper {
+    height: 420px;
+  }
+
+  .swiper-slide img {
+    height: 420px;
+  }
+
+  .slide_contant,
+  .slide_contant-1 {
+    width: 380px;
+    left: 30px;
+  }
+
+  .slide_contant h1,
+  .slide_contant-1 h1 {
+    font-size: 32px;
+  }
+
+  .slide_contant p,
+  .slide_contant-1 p {
+    font-size: 20px;
+  }
+
+  /* Find Doctor */
+  .find-doctor {
+    margin-top: -30px;
+    padding: 30px 15px;
+  }
+
+  .find-doctor .tabs {
+    gap: 25px;
+  }
+
+  /* About Section */
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-left p {
+    max-width: 100%;
+  }
+
+  .about-right {
+    width: 100%;
+  }
+
+  /* AGH Stats */
+  .agh-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .agh-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =========================
+   RESPONSIVE – MOBILE
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Swiper */
+  .swiper {
+    height: 350px;
+  }
+
+  .swiper-slide img {
+    height: 350px;
+  }
+
+  .slide_contant,
+  .slide_contant-1 {
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .slide_contant h1,
+  .slide_contant-1 h1 {
+    font-size: 26px;
+  }
+
+  .slide_contant p,
+  .slide_contant-1 p {
+    font-size: 18px;
+  }
+
+  .slide_contant ul,
+  .slide_contant-1 ul {
+    margin: 15px auto 0;
+  }
+
+  /* Find Doctor */
+  .find-doctor .tabs {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .find-doctor .form {
+    flex-direction: column;
+  }
+
+  .find-doctor select,
+  .find-doctor button {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* About */
+  .about-left h2 {
+    font-size: 32px;
+  }
+
+  /* AGH Stats */
+  .agh-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .agh-box h1 {
+    font-size: 42px;
+  }
+
+  .agh-content h2 {
+    font-size: 30px;
+  }
+
+  /* Doctors */
+  .doctor-card img {
+    height: 300px;
+  }
+}
+
+/* =========================
+   RESPONSIVE – SMALL MOBILE
+   ========================= */
+@media (max-width: 480px) {
+
+  .swiper {
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    height: 300px;
+  }
+
+  .slide_contant h1,
+  .slide_contant-1 h1 {
+    font-size: 22px;
+  }
+
+  .slide_contant p,
+  .slide_contant-1 p {
+    font-size: 16px;
+  }
+
+  .about-left h2 {
+    font-size: 26px;
+  }
+
+  .agh-box h1 {
+    font-size: 36px;
+  }
+
+  .about-doctors h1 {
+    font-size: 28px;
+  }
+}
 
 
 
