@@ -22,7 +22,7 @@ html, body {
 
 
 .site-header {
-  background: #1A365D;
+  background: #0E2A47;
   width: 100%;
   position: sticky;
   top: 0;
@@ -85,7 +85,7 @@ html, body {
 }
 
 .main-menu a:hover {
-  color: #2F80ED;
+  color: #4CAF50;
 }
 
 /* Active menu item */
@@ -113,7 +113,7 @@ html, body {
 }
 
 .btn-appointment:hover {
-  background: #2563EB;
+  background: #2E8B57;
   transform: translateY(-1px);
 }
 
@@ -125,7 +125,7 @@ html, body {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: #C5A059;
+  background: #EAF2F8;
   color: #1F2937;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
